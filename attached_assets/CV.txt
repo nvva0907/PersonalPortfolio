@@ -1,0 +1,260 @@
+				
+
+
+
+
+GIỚI THIỆU
+
+Tôi là một Full Stack Developer và DevOps Engineer với kinh nghiệm việc với Java, Node.js, Python , ReactJS , làm việc trên PostgreSQL, MySQL, MongoDB, Redis, Kafka triển khai ứng dụng lên Server với Docker, CI/CD, GPU Server , cùng với kinh nghiệm triển khai LLM & NLP bao gồm VN NLP, LangChain, RAG, Llama Studio API Server.
+
+Về kế hoạch ngắn hạn, cùng với việc phát triển và vận hành phần mềm, website tôi muốn phát triển chuyên sâu hơn về AI ứng dụng thực tế và kiến trúc hệ thống lớn. Về kế hoạch dài hạn, tôi hướng đến việc xây dựng các nền tảng AI thông minh, tối ưu vận hành doanh nghiệp. Solution Architect (SA) là vị trí mà tôi hướng đến trong tương lai.
+
+KINH NGHIỆM LÀM VIỆC
+
+Thời gian: 03/2023 – 03/2025
+Công ty: FPT IS
+Vị trí : Technical Leader & Full Stack Developer & AI Intergration Engineer & DevOps Engineer
+•	Trưởng nhóm kỹ thuật
+o	Đảm bảo hiệu suất, bảo mật và khả năng mở rộng. 
+o	Lựa chọn ngôn ngữ, công nghệ phù hợp cho Backend, Frontend, Database, AI,.
+o	Quy định về coding convention, best practices cho Dev member 
+o	Hỗ trợ nâng cao kỹ năng của member trong team 
+o	Giám sát tiến độ của Dev, review code, đảm bảo chất lượng code 
+o	Theo dõi hiệu suất hệ thống, tối ưu truy vấn database, caching, queue. 
+o	Phối hợp với Product Owner, BA để nắm rõ yêu cầu và định hướng sản phẩm. 
+o	Theo dõi xu hướng công nghệ, đề xuất cải tiến hệ thống. 
+o	Tối ưu hoá chi phí hạ tầng.
+o	Đưa ra các giải pháp tự động hoá nhằm nâng cao hiệu suất công việc
+
+•	Phát triển Backend Web với Java Spring Boot, NodeJS, Python FastAPI:
+o	Xây dựng Code Base dự án
+o	Triển khai module Authentication, Authorization, Dynamic Authorization với JWT
+o	Triển khai các common module SMS, Email, Media Service, Firebase
+o	Phát triển và tối ưu RESTful API
+o	Tích hợp với các hệ thống 3Party như Call Center, EKyc, IDCheck, SMS Service
+o	Triển khai các kỹ thuật Caching, Message queue, Multi thread để tối ưu Performance hệ thống
+o	Triển khai quy trình quản lý nghiệp vụ với JBPM với các module nghiệp vụ phức tạp
+o	Chịu trách nhiệm chính trong việc vá các lỗi bảo mật của dự án (SonarQube, Blackduck, Coverity, Security Testing)
+o	Thiết kế và triển khai kiến trúc Microservice cho các dự án
+o	Tối ưu thiết kế CSDL
+o	Triển khai Data Migration cho giai đoạn Golive dự án lần đầu tiên cho khách hàng
+•	Phát triển Backend Core AI với Python:
+o	Tích hợp với các model AI bao gồm Speech to Text với Whisper, Natural Language Processing với VNCore NLP, Vector Embedding với E5 Intfloat, Large Language Model với LLama3 Meta
+o	Xây dựng Websocket cho ứng dụng realtime
+o	Phát triển và tối ưu API
+o	Triển khai các kỹ thuật Caching, Message queue, Multi thread để tối ưu Performance hệ thống
+o	Tích hợp hệ thống với Social Media (Zalo, Telegram)
+o	Tích hợp với các hệ thống 3Party như Call Center, SMS Service
+o	Tối ưu thiết kế CSDL
+o	Chịu trách nhiệm chính trong việc vá các lỗi bảo mật của dự án (SonarQube, Blackduck, Coverity, Security Testing)
+•	Phát triển Frontend Web với ReactJS:
+o	Xây dựng Code Base dự án (Component-based, Hook, Redux,Vite, ESLint, Router, I18n ...) , dựng toàn bộ các thư viện cần thiết cho dự án
+o	Xây dựng các chức năng theo Design System
+o	Xây dựng các chức năng realtime với Websocket
+
+•	Triển khai và vận hành hệ thống trên VM và Cloud
+o	Tạo và cấu hình các Instance từ tài nguyên được cấp trên Cloud 
+o	Cài đặt các thư viện cần thiết cho việc khởi chạy các ứng dụng 
+o	Cài đặt môi trường cho các ứng dụng (Docker, PM2, Conda, GPU Driver,..) 
+o	Deploy các ứng dụng, dịch vụ lên Server
+o	Setup CI/CD cho các ứng dụng
+o	Setup Domain cho các ứng dụng
+o	Cấu hình kho quản lý thư viện (Nexus Repository) phục vụ việc quản lý các thư viện và tăng tốc độ xây dựng ứng dụng
+o	Cấu hình kho lưu trữ image (Docker Registry) để lưu trữ các image của ứng dụng
+o	Cài đặt các ứng dụng quan trọng cho dự án ( MySQL, PostgresSQL, Redis, Registry, Minio, ...)
+
+Thời gian: 02/2022 – 03/2023
+Công ty: CMC GLOBAL
+Vị trí : Full Stack Developer
+•	Phát triển Backend Web với Java Spring Boot:
+o	Triển khai module Authentication, Authorization, Dynamic Authorization với JWT
+o	Triển khai các common module SMS, Email, Media Service
+o	Phát triển và tối ưu RESTful API
+o	Triển khai các kỹ thuật Caching, Message queue, Multi thread để tối ưu Performance hệ thống
+o	Thiết kế và triển khai kiến trúc Microservice cho các dự án
+o	Tối ưu thiết kế CSDL
+•	Phát triển Frontend Web với ReactJS:
+o	Xây dựng các chức năng theo Design System
+
+Thời gian: 12/2021 – 12/2024
+Công ty: VTI ACADEMY
+Vị trí : Teaching Assitant
+•	Hỗ trợ giảng viên trong việc giảng dạy, hướng dẫn và giải đáp thắc mắc của học viên về Java, ReactJS, Database
+•	Hướng dẫn thực hành, hỗ trợ sửa lỗi code, review bài tập và đánh giá năng lực học viên.
+•	Coi thi, chấm thi 
+ 
+
+DỰ ÁN
+
+ICC		09/2024 – 02/2025
+Tên đầy đủ: ICC Chatbot
+Công ty: FPT IS
+Mục đích: Hỗ trợ các doanh nghiệp & tổ chức về nâng cao chất lượng chăm sóc khách hàng.
+Vị trí: Technical Leader & FullStack Developer & DevOps Engineer
+1.Công nghệ & Kiến trúc
+•	Core AI: 
+o	LLamA3 (Meta) : Generative answer
+o	Whisper: Speech to Text
+o	VN NLP: Natural Language Processing
+o	E5 (Intfloat) : Vector Embedding
+•	Backend: Java (Spring Boot) , Python (FastAPI)
+•	Frontend: ReactJS.
+•	Mobile App: React Native.
+•	Database: MySQL.
+•	DevOps: Docker, CI/CD, triển khai trên GPU Server (FPT Smart Cloud)
+2. Đóng góp
+•	FullStack Developer
+o	Xây dựng Code Base dự án
+o	Triển khai module Authentication, Authorization, Dynamic Authorization với JWT
+o	Triển khai các common module SMS, Email, Media Service
+o	Phát triển và tối ưu RESTful API
+o	Tích hợp với các hệ thống 3Party như Call Center, SMS Service
+o	Triển khai các kỹ thuật Caching, Message queue, Multi thread để tối ưu Performance hệ thống
+o	Chịu trách nhiệm chính trong việc vá các lỗi bảo mật của dự án (SonarQube, Blackduck, Coverity, Security Testing)
+o	Thiết kế và triển khai kiến trúc Microservice cho dự án
+o	Tối ưu thiết kế CSDL
+o	Tích hợp với các model AI bao gồm Speech to Text với Whisper, Natural Language Processing với VNCore NLP, Vector Embedding với E5 Intfloat, Large Language Model với LLama3 Meta
+o	Xây dựng Websocket cho ứng dụng realtime
+o	Tích hợp hệ thống với Social Media (Zalo, Telegram)
+•	DevOps Engineer
+o	Tạo và cấu hình các Instance từ tài nguyên được cấp trên Cloud 
+o	Cài đặt các thư viện cần thiết cho việc khởi chạy các ứng dụng 
+o	Cài đặt môi trường cho các ứng dụng (Docker, PM2, Conda, GPU Driver,..) 
+o	Deploy các ứng dụng, dịch vụ lên Server
+o	Setup CI/CD cho các ứng dụng
+o	Setup Domain cho các ứng dụng
+o	Cấu hình kho quản lý thư viện (Nexus Repository) phục vụ việc quản lý các thư viện và tăng tốc độ xây dựng ứng dụng
+o	Cấu hình kho lưu trữ image (Docker Registry) để lưu trữ các image của ứng dụng
+o	Cài đặt các ứng dụng quan trọng cho dự án ( MySQL, PostgresSQL, Redis, Registry, Minio, ...)
+3. Kết quả
+•	Nghiên cứu phát triển thành công các Model AI
+•	Pass 100% các vòng kiểm tra (Performance Test, Security Test, QA Test)
+•	Dự án được cấp phép sẵn sàng Golive
+•	Đã và đang triển khai cho khách hàng
+
+LENDVERO		03/2024 – 09/2024
+Tên đầy đủ: LendVero
+Công ty: FPT IS
+Mục đích: Hệ thống thu hồi nợ cho các công ty tài chính
+Vị trí: Dev Leader & FullStack Developer
+
+1.Công nghệ & Kiến trúc
+•	Backend: Java Spring Boot
+•	Frontend: ReactJS.
+•	Mobile App: React Native.
+•	Database: MySQL.
+•	DevOps: Docker, CI/CD, triển khai trên K8s (Cụm K8s của khối NS - FPT IS)
+2. Đóng góp
+•	Xây dựng hệ thống phân bổ công việc tự động
+•	Xây dựng modile quản lý công việc của nhân viên.
+•	Tích hợp hệ thống Call Center
+•	Xây dựng module Authentication, Authorization
+•	Xây dựng module tìm đường đi hiệu quả giữa các địa điểm
+•	Tăng hiệu quả Teamwork của member trong dự án
+•	Giám sát tiến độ của DEV
+•	Hỗ trợ nâng cao kỹ năng của các member trong team
+3. Kết quả
+•	Pass 100% các vòng kiểm tra (Performance Test, Pen Test, QA Test)
+•	Dự án được cấp phép sẵn sàng Golive
+•	2 khách hàng ký MOU
+
+JLOS		03/2023 – 03/2025
+Tên đầy đủ: JACCS Loan Origination System
+Công ty: FPT IS
+Khách hàng: JACCS - Công ty Tài chính TNHH Một Thành Viên Quốc Tế Việt Nam JACCS
+Mục đích: Quản lý khoản vay khách hàng cho JACCS
+Vị trí: FullStack Developer
+
+1. Công nghệ & Kiến trúc
+•	Backend: Java Spring Boot
+•	Business Management: JBPM (Java Business Process Management)
+•	Frontend: ReactJS.
+•	Mobile App: React Native.
+•	Database: MySQL.
+•	DevOps: Docker, CI/CD, triển khai trên VM cho môi trường DEV/TEST và trên Cloud cho môi trường PRODUCTION.
+2. Đóng góp
+•	Xây dựng Code Base cho dự án.
+•	Xây dựng module quản lý nguồn lực của công ty
+o	24 Danh mục (Đại lý, Nhãn hiệu, Sản phẩm,..)
+o	Quản lý nhân viên
+o	Quản lý phân quyền
+•	Xây dựng module quản lý công việc của nhân viên.
+•	Tích hợp Ekyc, IDCheck cho các module cần xác thực định danh điện tử.
+•	Xây dựng Authentication, Authorization & 2FA cho hệ thống.
+3. Kết quả
+•	Dự án triển khai thành công cho khách hàng JACCS và nhận phản hồi tốt
+
+RTS		06/2022 – 02/2023
+Tên đầy đủ: Recruitment Tracking System
+Công ty: CMC GLOBAL
+Khách hàng: TDX - Khối nội bộ của công ty CMC GLOBAL
+Mục đích: Quản lý tuyển dụng
+Vị trí: FullStack Developer
+
+
+1. Công nghệ & Kiến trúc
+•	Backend: Java Spring Boot
+•	Frontend: ReactJS.
+•	Database: MySQL, MongoDB.
+•	Queue: Redis Pub/Sub, Kafka (xử lý thông báo, email tự động).
+•	DevOps: Docker, CI/CD, triển khai trên VM.
+2. Đóng góp
+•	Thiết kế API giúp tối ưu hiệu suất khi xử lý dữ liệu ứng viên lớn.
+•	Tối ưu thiết kế CSDL.
+•	Phát triển những module nghiệp vụ theo yêu cầu bao gồm cả Backend và Frontend.
+•	Đưa ra các giải pháp nhằm tối ưu hiệu suất.
+3. Kết quả
+•	Dự án triển khai thành công cho khách hàng
+
+SKM		06/2022 – 09/2022
+Tên đầy đủ: Skill Management
+Công ty: CMC GLOBAL
+Khách hàng: TDX - Khối nội bộ của công ty CMC GLOBAL
+Mục đích: Quản lý kỹ năng của nhân viên
+Vị trí: FullStack Developer
+
+
+1. Công nghệ & Kiến trúc
+o	Backend: Java Spring Boot
+o	Frontend: ReactJS
+o	Database: MySQL.
+o	DevOps: Docker, CI/CD, triển khai trên VM.
+2. Đóng góp & Thành tựu
+o	Tối ưu lại các API đang gặp vấn đề về tốc độ xử lý.
+o	Tối ưu thiết kế CSDL.
+o	Phát triển những module nghiệp vụ theo yêu cầu.
+3. Kết quả
+•	Xử lý thành công tất cả các issue liên quan đến Performance của API
+•	Áp dụng thành công các công nghệ mới vào dự án để tăng tốc độ API
+•	Dự án triển khai thành công cho khách hàng
+
+HRMS		02/2022 – 03/2023
+Tên đầy đủ: Human Resource Management System
+Công ty: CMC GLOBAL
+Khách hàng: TDX - Khối nội bộ của công ty CMC GLOBAL
+Mục đích: Quản lý nhân viên của công ty
+Vị trí: FullStack Developer
+
+
+1. Công nghệ & Kiến trúc
+o	Backend: Java Spring Boot
+o	Frontend: VueJS
+o	Database: MySQL, MongoDB
+o	Queue: Redis, Kafka
+o	DevOps: Docker, CI/CD, triển khai trên VM.
+2. Đóng góp
+o	Thiết kế API giúp tối ưu hiệu suất khi xử lý dữ liệu nhân sự lớn.
+o	Tối ưu thiết kế CSDL
+o	Phát triển những module nghiệp vụ theo yêu cầu bao gồm cả Backend và Frontend
+o	Đưa ra các giải pháp nhằm tối ưu hiệu suất
+o	Phát triển module authentication & authorization
+3. Kết quả
+o	Pass 100% các vòng kiểm tra (Performance test, Security Test, QA Test)
+o	Dự án được cấp phép golive
+o	Dự án triển khai thành công cho khách hàng
+
+
+
+
+
+

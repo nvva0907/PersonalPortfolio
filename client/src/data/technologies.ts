@@ -5,7 +5,15 @@ import {
   Settings, 
   MessageCircle, 
   User, 
-  Filter 
+  Filter,
+  Database,
+  Cloud,
+  Bot,
+  FileCode,
+  Layers,
+  Zap,
+  ShieldCheck,
+  CircuitBoard
 } from 'lucide-react';
 
 export const technologies = [
@@ -26,19 +34,63 @@ export const technologies = [
     icon: Server
   },
   {
+    name: 'Python',
+    icon: FileCode
+  },
+  {
+    name: 'LangChain',
+    icon: Bot
+  },
+  {
+    name: 'RAG',
+    icon: Layers
+  },
+  {
+    name: 'LLama3',
+    icon: Bot
+  },
+  {
     name: 'DevOps',
     icon: Settings
+  },
+  {
+    name: 'Docker',
+    icon: Cloud
+  },
+  {
+    name: 'CI/CD',
+    icon: Zap
+  },
+  {
+    name: 'PostgreSQL',
+    icon: Database
+  },
+  {
+    name: 'MongoDB',
+    icon: Database
+  },
+  {
+    name: 'Redis',
+    icon: Database
+  },
+  {
+    name: 'Kafka',
+    icon: CircuitBoard
+  },
+  {
+    name: 'Security',
+    icon: ShieldCheck
   },
   {
     name: 'AI Chatbot',
     icon: MessageCircle
   },
   {
-    name: 'AI Agent',
+    name: 'AI Integration',
     icon: User
   },
   {
-    name: 'Kong Gateway',
+    name: 'Microservices',
     icon: Filter
   }
 ];

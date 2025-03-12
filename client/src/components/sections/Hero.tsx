@@ -3,7 +3,7 @@ import { motion, useAnimation, AnimatePresence } from 'framer-motion';
 
 const Hero = () => {
   const typewriterRef = useRef<HTMLParagraphElement>(null);
-  const text = "Full Stack Developer specializing in Java & React with expertise in AI solutions.";
+  const text = "Full Stack Developer & DevOps Engineer specializing in Java, Python, React with expertise in AI integration.";
   const [isVisible, setIsVisible] = useState(false);
   const controls = useAnimation();
   

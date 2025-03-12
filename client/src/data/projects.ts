@@ -10,9 +10,9 @@ interface Project {
 
 export const projects: Project[] = [
   {
-    name: 'HRMS System',
-    description: 'A comprehensive human resource management system with employee tracking, leave management, and performance evaluation.',
-    technologies: ['Java', 'Spring Boot', 'React'],
+    name: 'ICC Chatbot',
+    description: 'An AI-powered chatbot supporting businesses and organizations to enhance customer service quality. Features speech-to-text, natural language processing, and language model integration.',
+    technologies: ['Python', 'FastAPI', 'LLama3', 'Whisper', 'ReactJS', 'Docker'],
     color: '#3B82F6',
     svgPattern: `
       <circle r="40" strokeDasharray="5,5" />
@@ -21,9 +21,9 @@ export const projects: Project[] = [
     `
   },
   {
-    name: 'Skill Management Platform',
-    description: 'A platform for tracking and developing employee skills with personalized learning paths and certification tracking.',
-    technologies: ['Node.js', 'MongoDB', 'React'],
+    name: 'LendVero',
+    description: 'A debt collection system for financial companies featuring automatic work distribution, employee task management, and call center integration with efficient route finding between locations.',
+    technologies: ['Java', 'Spring Boot', 'ReactJS', 'React Native', 'MySQL', 'Docker'],
     color: '#10B981',
     svgPattern: `
       <rect x="-50" y="-50" width="100" height="100" rx="10" />
@@ -33,9 +33,9 @@ export const projects: Project[] = [
     `
   },
   {
-    name: 'AI Chatbot for IDNES',
-    description: 'A sophisticated AI chatbot providing customer support, information retrieval, and automated assistance for the IDNES platform.',
-    technologies: ['Python', 'NLP', 'React'],
+    name: 'JLOS (JACCS Loan Origination System)',
+    description: 'A loan management system for JACCS financial company that includes resource management, employee management, electronic identity verification, and secure authentication with 2FA.',
+    technologies: ['Java', 'Spring Boot', 'JBPM', 'ReactJS', 'MySQL', 'Docker'],
     color: '#EC4899',
     svgPattern: `
       <circle r="40" />
@@ -44,9 +44,9 @@ export const projects: Project[] = [
     `
   },
   {
-    name: 'Web AI for Voice Processing',
-    description: 'A web application that utilizes AI to transcribe, analyze, and extract insights from voice recordings.',
-    technologies: ['TensorFlow', 'Web Audio API', 'React'],
+    name: 'RTS (Recruitment Tracking System)',
+    description: 'A system for managing recruitment with optimized APIs for handling large candidate data, improved database design, and enhanced performance solutions.',
+    technologies: ['Java', 'Spring Boot', 'ReactJS', 'MySQL', 'MongoDB', 'Redis', 'Kafka'],
     color: '#F59E0B',
     svgPattern: `
       <path d="M-40,0 Q-20,-40 0,0 Q20,40 40,0" />
@@ -55,9 +55,9 @@ export const projects: Project[] = [
     `
   },
   {
-    name: 'Real-Time System (RTS)',
-    description: 'A real-time monitoring and reporting system providing instant analytics and notifications for critical business metrics.',
-    technologies: ['WebSockets', 'Node.js', 'React'],
+    name: 'SKM (Skill Management)',
+    description: 'An employee skill management system focusing on API performance optimization, database design improvements, and business module development.',
+    technologies: ['Java', 'Spring Boot', 'ReactJS', 'MySQL', 'Docker'],
     color: '#6366F1',
     svgPattern: `
       <path d="M-40,-40 L40,40" strokeWidth="2" />
@@ -67,9 +67,9 @@ export const projects: Project[] = [
     `
   },
   {
-    name: 'JLOS (Justice Law & Order System)',
-    description: 'A comprehensive system for managing legal cases, documents, and proceedings for justice and law enforcement agencies.',
-    technologies: ['Java', 'Spring Boot', 'PostgreSQL'],
+    name: 'HRMS (Human Resource Management System)',
+    description: 'A comprehensive human resource management system for internal use at CMC GLOBAL, handling employee data, time tracking, and performance management.',
+    technologies: ['Java', 'Spring Boot', 'ReactJS', 'MySQL'],
     color: '#8B5CF6',
     svgPattern: `
       <rect x="-40" y="-40" width="80" height="80" />

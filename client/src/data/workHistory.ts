@@ -1,16 +1,23 @@
 export const workHistory = [
   {
-    period: '2021 - Present',
-    title: 'Senior Developer',
-    company: 'Tech Innovations Inc.',
-    description: 'Led the development of multiple enterprise applications including AI-powered solutions and microservices architecture design.',
-    skills: ['Java', 'Spring Boot', 'ReactJS', 'AI Integration']
+    period: '03/2023 - 03/2025',
+    title: 'Technical Leader & Full Stack Developer & AI Integration Engineer & DevOps Engineer',
+    company: 'FPT IS',
+    description: 'Led technical teams, developed backend systems with Java Spring Boot, NodeJS, Python FastAPI, integrated AI models including LLamA3, Whisper, and E5. Managed deployments on VMs and Cloud with Docker and CI/CD.',
+    skills: ['Java', 'Spring Boot', 'NodeJS', 'Python', 'ReactJS', 'AI Integration', 'DevOps', 'Docker', 'CI/CD']
   },
   {
-    period: '2018 - 2021',
+    period: '02/2022 - 03/2023',
     title: 'Full Stack Developer',
-    company: 'Digital Solutions Ltd.',
-    description: 'Developed and maintained multiple web applications focusing on HR management and skill tracking systems.',
-    skills: ['Java', 'Node.js', 'React', 'REST APIs']
+    company: 'CMC GLOBAL',
+    description: 'Developed backend systems with Java Spring Boot, implemented authentication and authorization with JWT, optimized database designs, and built frontend features with ReactJS.',
+    skills: ['Java', 'Spring Boot', 'ReactJS', 'Microservices', 'RESTful APIs']
+  },
+  {
+    period: '12/2021 - 12/2024',
+    title: 'Teaching Assistant',
+    company: 'VTI ACADEMY',
+    description: 'Supported instructors in teaching Java, ReactJS, and database topics. Provided hands-on guidance, code review, and helped evaluate student performance.',
+    skills: ['Java', 'ReactJS', 'Database', 'Teaching', 'Mentoring']
   }
 ];
