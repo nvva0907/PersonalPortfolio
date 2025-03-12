@@ -114,7 +114,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-slate-400">Location</p>
-                  <p className="text-slate-200">San Francisco, CA</p>
+                  <p className="text-slate-200">Vietnam</p>
                 </div>
               </div>
             </div>

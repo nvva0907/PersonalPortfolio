@@ -32,10 +32,10 @@ const About = () => {
           
           <div className="md:w-2/3 space-y-6">
             <p className="text-lg text-slate-300 leading-relaxed">
-              I am a passionate Full Stack Developer with extensive experience in building robust applications using Java, Spring Boot, and React.js. My journey in technology has led me to explore various domains including DevOps, AI solutions, and API gateway implementations.
+              I am a Full Stack Developer and DevOps Engineer with experience working with Java, Node.js, Python, ReactJS, PostgreSQL, MySQL, MongoDB, Redis, and Kafka. I deploy applications to servers using Docker, CI/CD, and have expertise with GPU servers, as well as implementing LLM & NLP solutions including VN NLP, LangChain, RAG, and Llama Studio API Server.
             </p>
             <p className="text-lg text-slate-300 leading-relaxed">
-              With a problem-solving mindset and attention to detail, I strive to create efficient, scalable, and user-friendly applications. I enjoy taking on complex challenges and transforming them into elegant solutions.
+              In the short term, alongside software development and operations, I aim to deepen my expertise in practical AI applications and large-scale system architecture. My long-term goal is to build intelligent AI platforms optimized for business operations, with the ambition of becoming a Solution Architect.
             </p>
             <div className="flex flex-wrap gap-3 mt-8">
               <motion.div 
