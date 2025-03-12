@@ -2,7 +2,8 @@
   "greeting": "Xin chào, tôi là",
   "name": "Nguyễn Văn Việt Anh",
   "title": "Lập trình viên Full Stack & Kỹ sư AI",
-  "description": "Tôi là một lập trình viên đam mê chuyên xây dựng những trải nghiệm kỹ thuật số nổi bật, kết hợp các giải pháp AI sáng tạo với công nghệ web hiện đại.",
-  "downloadCV": "Tải CV",
-  "contactMe": "Liên hệ"
+  "description": "Lập trình viên Full Stack & DevOps Engineer chuyên về Java, Python, React với kinh nghiệm tích hợp AI.",
+  "viewWorkBtn": "Xem dự án của tôi",
+  "contactBtn": "Liên hệ",
+  "downloadCV": "Tải CV"
 }

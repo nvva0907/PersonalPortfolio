@@ -1,12 +1,15 @@
 import { Code, Coffee, BookOpen } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const About = () => {
+  const { t } = useTranslation('about');
+  
   return (
     <section id="about" className="py-24 section">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-          <span className="text-primary">&lt;</span> About Me <span className="text-primary">/&gt;</span>
+          <span className="text-primary">&lt;</span> {t('title')} <span className="text-primary">/&gt;</span>
         </h2>
         
         <div className="flex flex-col md:flex-row gap-12 items-center">
