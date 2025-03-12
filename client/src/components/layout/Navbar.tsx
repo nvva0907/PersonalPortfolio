@@ -150,7 +150,7 @@ const Navbar = () => {
               whileHover={{ y: -2 }}
               whileTap={{ y: 0 }}
             >
-              {section.charAt(0).toUpperCase() + section.slice(1)}
+              {t(section)}
               {activeSection === section && (
                 <motion.span 
                   className="absolute bottom-0 left-0 w-full h-0.5 bg-primary"
@@ -162,6 +162,48 @@ const Navbar = () => {
               )}
             </motion.a>
           ))}
+          
+          {/* Language Switcher */}
+          <div className="relative">
+            <motion.button
+              className="flex items-center space-x-1 text-slate-300 hover:text-white"
+              onClick={() => setIsLanguageOpen(!isLanguageOpen)}
+              whileHover={{ y: -2 }}
+              whileTap={{ y: 0 }}
+              variants={navItemVariants}
+              initial="hidden"
+              animate="visible"
+              custom={4}
+            >
+              <Globe className="w-4 h-4" />
+              <span className="text-sm">{i18n.language === 'vi' ? 'VI' : 'EN'}</span>
+            </motion.button>
+            
+            <AnimatePresence>
+              {isLanguageOpen && (
+                <motion.div
+                  className="absolute top-full right-0 mt-2 bg-slate-800 rounded-lg shadow-lg py-2 w-32 border border-slate-700"
+                  initial={{ opacity: 0, y: -10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }}
+                  transition={{ duration: 0.2 }}
+                >
+                  <button
+                    className={`w-full text-left px-4 py-2 hover:bg-slate-700 ${i18n.language === 'en' ? 'text-primary' : 'text-slate-300'}`}
+                    onClick={() => changeLanguage('en')}
+                  >
+                    English
+                  </button>
+                  <button
+                    className={`w-full text-left px-4 py-2 hover:bg-slate-700 ${i18n.language === 'vi' ? 'text-primary' : 'text-slate-300'}`}
+                    onClick={() => changeLanguage('vi')}
+                  >
+                    Tiếng Việt
+                  </button>
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
         </nav>
         
         {/* Mobile Menu Button */}
@@ -218,9 +260,28 @@ const Navbar = () => {
                   variants={mobileItemVariants}
                   whileHover={{ x: 5, color: "#fff" }}
                 >
-                  {section.charAt(0).toUpperCase() + section.slice(1)}
+                  {t(section)}
                 </motion.a>
               ))}
+              
+              {/* Language Switcher in Mobile Menu */}
+              <div className="border-t border-slate-700 pt-3 mt-2">
+                <p className="text-slate-400 text-sm mb-2">{t('language')}</p>
+                <div className="flex space-x-4">
+                  <button
+                    className={`px-3 py-1 rounded ${i18n.language === 'en' ? 'bg-primary text-white' : 'bg-slate-700 text-slate-300'}`}
+                    onClick={() => changeLanguage('en')}
+                  >
+                    English
+                  </button>
+                  <button
+                    className={`px-3 py-1 rounded ${i18n.language === 'vi' ? 'bg-primary text-white' : 'bg-slate-700 text-slate-300'}`}
+                    onClick={() => changeLanguage('vi')}
+                  >
+                    Tiếng Việt
+                  </button>
+                </div>
+              </div>
             </div>
           </motion.div>
         )}

@@ -1,9 +1,11 @@
 import { useEffect, useRef, useState } from 'react';
 import { motion, useAnimation, AnimatePresence } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const Hero = () => {
   const typewriterRef = useRef<HTMLParagraphElement>(null);
-  const text = "Full Stack Developer & DevOps Engineer specializing in Java, Python, React with expertise in AI integration.";
+  const { t, i18n } = useTranslation('hero');
+  const text = t('description');
   const [isVisible, setIsVisible] = useState(false);
   const controls = useAnimation();
   
@@ -35,6 +37,10 @@ const Hero = () => {
 
   useEffect(() => {
     let i = 0;
+    if (typewriterRef.current) {
+      typewriterRef.current.textContent = '';
+    }
+    
     const typeWriter = () => {
       if (typewriterRef.current && i < text.length) {
         typewriterRef.current.textContent += text.charAt(i);
@@ -51,7 +57,7 @@ const Hero = () => {
     }, 1000);
     
     return () => clearTimeout(timer);
-  }, [controls]);
+  }, [controls, text, i18n.language]);
 
   // 3D floating animation for hero section
   const floatingAnimation = {
@@ -105,7 +111,7 @@ const Hero = () => {
             initial="hidden"
             animate="visible"
           >
-            <span className="text-white">Hello, I'm </span>
+            <span className="text-white">{t('greeting')} </span>
             <motion.span 
               className="text-primary"
               whileHover={{ 
@@ -114,7 +120,7 @@ const Hero = () => {
                 transition: { duration: 0.2 } 
               }}
             >
-              Nguyen Van Viet Anh
+              {t('name')}
             </motion.span>
           </motion.h1>
         </motion.div>
@@ -144,7 +150,7 @@ const Hero = () => {
                   initial={{ z: 5 }}
                   className="block"
                 >
-                  View My Work
+                  {t('viewWorkBtn')}
                 </motion.span>
               </motion.a>
               <motion.a 
@@ -154,7 +160,7 @@ const Hero = () => {
                 whileHover="hover"
                 whileTap="tap"
               >
-                Contact Me
+                {t('contactBtn')}
               </motion.a>
             </motion.div>
           )}
