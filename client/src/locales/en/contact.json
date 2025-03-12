@@ -1,0 +1,18 @@
+{
+  "title": "Contact Me",
+  "subtitle": "Get In Touch",
+  "description": "Feel free to reach out if you're looking for a developer, have a question, or just want to connect.",
+  "emailLabel": "Email",
+  "phoneLabel": "Phone",
+  "locationLabel": "Location",
+  "connectWithMe": "Connect with me",
+  "name": "Name",
+  "email": "Email",
+  "message": "Message",
+  "namePlaceholder": "Nguyen Van Viet Anh",
+  "emailPlaceholder": "vietanh@example.com",
+  "messagePlaceholder": "How can I help you?",
+  "sendMessage": "Send Message",
+  "sending": "Sending...",
+  "successMessage": "Message sent successfully!"
+}
