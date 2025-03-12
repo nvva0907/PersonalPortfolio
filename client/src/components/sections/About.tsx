@@ -35,10 +35,13 @@ const About = () => {
           
           <div className="md:w-2/3 space-y-6">
             <p className="text-lg text-slate-300 leading-relaxed">
-              I am a Full Stack Developer and DevOps Engineer with experience working with Java, Node.js, Python, ReactJS, PostgreSQL, MySQL, MongoDB, Redis, and Kafka. I deploy applications to servers using Docker, CI/CD, and have expertise with GPU servers, as well as implementing LLM & NLP solutions including VN NLP, LangChain, RAG, and Llama Studio API Server.
+              {t('paragraph1')}
             </p>
             <p className="text-lg text-slate-300 leading-relaxed">
-              In the short term, alongside software development and operations, I aim to deepen my expertise in practical AI applications and large-scale system architecture. My long-term goal is to build intelligent AI platforms optimized for business operations, with the ambition of becoming a Solution Architect.
+              {t('paragraph2')}
+            </p>
+            <p className="text-lg text-slate-300 leading-relaxed">
+              {t('paragraph3')}
             </p>
             <div className="flex flex-wrap gap-3 mt-8">
               <motion.div 
@@ -46,21 +49,21 @@ const About = () => {
                 whileHover={{ y: -5 }}
                 transition={{ duration: 0.2 }}
               >
-                <Code className="inline-block mr-2 h-5 w-5" /> Problem Solver
+                <Code className="inline-block mr-2 h-5 w-5" /> {t('badges.problemSolver')}
               </motion.div>
               <motion.div 
                 className="bg-slate-800 px-4 py-2 rounded-md text-primary border border-slate-700 flex items-center"
                 whileHover={{ y: -5 }}
                 transition={{ duration: 0.2 }}
               >
-                <Coffee className="inline-block mr-2 h-5 w-5" /> Coffee Enthusiast
+                <Coffee className="inline-block mr-2 h-5 w-5" /> {t('badges.coffeeEnthusiast')}
               </motion.div>
               <motion.div 
                 className="bg-slate-800 px-4 py-2 rounded-md text-primary border border-slate-700 flex items-center"
                 whileHover={{ y: -5 }}
                 transition={{ duration: 0.2 }}
               >
-                <BookOpen className="inline-block mr-2 h-5 w-5" /> Lifelong Learner
+                <BookOpen className="inline-block mr-2 h-5 w-5" /> {t('badges.lifelongLearner')}
               </motion.div>
             </div>
           </div>

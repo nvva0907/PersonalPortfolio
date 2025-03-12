@@ -1,11 +1,16 @@
 {
   "title": "Giới thiệu",
   "subtitle": "Lập trình viên Full Stack & Kỹ sư AI",
-  "paragraph1": "Tôi là một lập trình viên đam mê với hơn 5 năm kinh nghiệm trong việc xây dựng các trải nghiệm kỹ thuật số nổi bật. Tôi tập trung vào việc kết hợp các giải pháp AI tiên tiến với công nghệ web hiện đại để tạo ra các ứng dụng sáng tạo.",
-  "paragraph2": "Với nền tảng trong cả phát triển front-end và back-end, tôi mang đến một bộ kỹ năng toàn diện cho mọi dự án. Chuyên môn của tôi trải dài từ việc tạo ra các thiết kế UI đáp ứng đến việc triển khai các hệ thống backend phức tạp và triển khai các mô hình AI.",
+  "paragraph1": "Tôi là một Lập trình viên Full Stack và Kỹ sư DevOps với kinh nghiệm làm việc với Java, Node.js, Python, ReactJS, PostgreSQL, MySQL, MongoDB, Redis, và Kafka. Tôi triển khai ứng dụng lên máy chủ sử dụng Docker, CI/CD, và có chuyên môn với máy chủ GPU, cũng như triển khai các giải pháp LLM & NLP bao gồm VN NLP, LangChain, RAG, và Llama Studio API Server.",
+  "paragraph2": "Trong ngắn hạn, song song với phát triển phần mềm và vận hành, tôi mong muốn đào sâu chuyên môn về các ứng dụng AI thực tế và kiến trúc hệ thống quy mô lớn. Mục tiêu dài hạn của tôi là xây dựng các nền tảng AI thông minh được tối ưu hóa cho hoạt động kinh doanh, với khát vọng trở thành một Kiến trúc sư Giải pháp.",
   "paragraph3": "Tôi luôn hăng hái học hỏi các công nghệ mới và cập nhật với các xu hướng mới nhất của ngành, đảm bảo rằng tôi có thể cung cấp các giải pháp hiệu quả nhất cho môi trường kỹ thuật số năng động ngày nay.",
   "yearsExperience": "Năm Kinh Nghiệm",
   "projectsCompleted": "Dự Án Hoàn Thành",
   "technologies": "Công Nghệ Sử Dụng",
-  "companiesWorked": "Công Ty Đã Làm Việc"
+  "companiesWorked": "Công Ty Đã Làm Việc",
+  "badges": {
+    "problemSolver": "Giải quyết vấn đề",
+    "coffeeEnthusiast": "Yêu thích cà phê",
+    "lifelongLearner": "Học hỏi không ngừng"
+  }
 }

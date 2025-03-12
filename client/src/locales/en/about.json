@@ -1,11 +1,16 @@
 {
   "title": "About Me",
   "subtitle": "Full Stack Developer & AI Engineer",
-  "paragraph1": "I'm a passionate developer with over 5 years of experience in building exceptional digital experiences. My focus is on combining cutting-edge AI solutions with modern web technologies to create innovative applications.",
-  "paragraph2": "With a background in both front-end and back-end development, I bring a comprehensive skill set to every project. My expertise spans from creating responsive UI designs to implementing complex backend systems and deploying AI models.",
+  "paragraph1": "I am a Full Stack Developer and DevOps Engineer with experience working with Java, Node.js, Python, ReactJS, PostgreSQL, MySQL, MongoDB, Redis, and Kafka. I deploy applications to servers using Docker, CI/CD, and have expertise with GPU servers, as well as implementing LLM & NLP solutions including VN NLP, LangChain, RAG, and Llama Studio API Server.",
+  "paragraph2": "In the short term, alongside software development and operations, I aim to deepen my expertise in practical AI applications and large-scale system architecture. My long-term goal is to build intelligent AI platforms optimized for business operations, with the ambition of becoming a Solution Architect.",
   "paragraph3": "I'm always eager to learn new technologies and stay updated with the latest industry trends, ensuring that I can provide the most effective solutions for today's dynamic digital landscape.",
   "yearsExperience": "Years of Experience",
   "projectsCompleted": "Projects Completed",
   "technologies": "Technologies Used",
-  "companiesWorked": "Companies Worked For"
+  "companiesWorked": "Companies Worked For",
+  "badges": {
+    "problemSolver": "Problem Solver",
+    "coffeeEnthusiast": "Coffee Enthusiast",
+    "lifelongLearner": "Lifelong Learner"
+  }
 }
