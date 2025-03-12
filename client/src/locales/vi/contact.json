@@ -1,0 +1,18 @@
+{
+  "title": "Liên Hệ",
+  "subtitle": "Kết Nối",
+  "description": "Hãy liên hệ nếu bạn đang tìm kiếm một lập trình viên, có câu hỏi, hoặc chỉ muốn kết nối.",
+  "emailLabel": "Email",
+  "phoneLabel": "Điện thoại",
+  "locationLabel": "Địa điểm",
+  "connectWithMe": "Kết nối với tôi",
+  "name": "Tên",
+  "email": "Email",
+  "message": "Tin nhắn",
+  "namePlaceholder": "Nguyễn Văn Việt Anh",
+  "emailPlaceholder": "vietanh@example.com",
+  "messagePlaceholder": "Tôi có thể giúp gì cho bạn?",
+  "sendMessage": "Gửi Tin Nhắn",
+  "sending": "Đang gửi...",
+  "successMessage": "Tin nhắn đã được gửi thành công!"
+}

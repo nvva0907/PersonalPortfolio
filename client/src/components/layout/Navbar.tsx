@@ -1,11 +1,19 @@
 import { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Globe } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState('');
+  const [isLanguageOpen, setIsLanguageOpen] = useState(false);
+  const { t, i18n } = useTranslation('navbar');
+  
+  const changeLanguage = (lng: string) => {
+    i18n.changeLanguage(lng);
+    setIsLanguageOpen(false);
+  };
 
   // Handle scroll event to change navbar appearance
   useEffect(() => {
