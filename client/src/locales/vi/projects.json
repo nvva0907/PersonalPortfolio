@@ -1,6 +1,30 @@
 {
   "title": "Dự Án",
-  "subtitle": "Công Việc Nổi Bật",
-  "viewProject": "Xem Dự Án",
-  "technologiesUsed": "Công Nghệ Sử Dụng"
+  "viewDetails": "Xem Chi Tiết",
+  "projects": [
+    {
+      "name": "ICC Chatbot",
+      "description": "Chatbot được hỗ trợ bởi AI giúp doanh nghiệp và tổ chức nâng cao chất lượng dịch vụ khách hàng. Tính năng bao gồm chuyển đổi giọng nói thành văn bản, xử lý ngôn ngữ tự nhiên và tích hợp mô hình ngôn ngữ."
+    },
+    {
+      "name": "LendVero",
+      "description": "Hệ thống thu hồi nợ cho các công ty tài chính với tính năng phân phối công việc tự động, quản lý công việc của nhân viên và tích hợp tổng đài với tính năng tìm đường đi hiệu quả giữa các địa điểm."
+    },
+    {
+      "name": "JLOS (Hệ thống Khởi tạo Khoản vay JACCS)",
+      "description": "Hệ thống quản lý khoản vay cho công ty tài chính JACCS bao gồm quản lý tài nguyên, quản lý nhân viên, xác minh danh tính điện tử và xác thực an toàn với 2FA."
+    },
+    {
+      "name": "RTS (Hệ thống Theo dõi Tuyển dụng)",
+      "description": "Hệ thống quản lý tuyển dụng với API được tối ưu hóa để xử lý dữ liệu ứng viên lớn, thiết kế cơ sở dữ liệu được cải thiện và các giải pháp hiệu suất nâng cao."
+    },
+    {
+      "name": "SKM (Quản lý Kỹ năng)",
+      "description": "Hệ thống quản lý kỹ năng nhân viên tập trung vào tối ưu hóa hiệu suất API, cải thiện thiết kế cơ sở dữ liệu và phát triển mô-đun kinh doanh."
+    },
+    {
+      "name": "HRMS (Hệ thống Quản lý Nhân sự)",
+      "description": "Hệ thống quản lý nhân sự toàn diện để sử dụng nội bộ tại CMC GLOBAL, xử lý dữ liệu nhân viên, theo dõi thời gian và quản lý hiệu suất."
+    }
+  ]
 }

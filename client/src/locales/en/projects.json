@@ -1,6 +1,30 @@
 {
   "title": "Projects",
-  "subtitle": "Featured Work",
-  "viewProject": "View Project",
-  "technologiesUsed": "Technologies Used"
+  "viewDetails": "View Details",
+  "projects": [
+    {
+      "name": "ICC Chatbot",
+      "description": "An AI-powered chatbot supporting businesses and organizations to enhance customer service quality. Features speech-to-text, natural language processing, and language model integration."
+    },
+    {
+      "name": "LendVero",
+      "description": "A debt collection system for financial companies featuring automatic work distribution, employee task management, and call center integration with efficient route finding between locations."
+    },
+    {
+      "name": "JLOS (JACCS Loan Origination System)",
+      "description": "A loan management system for JACCS financial company that includes resource management, employee management, electronic identity verification, and secure authentication with 2FA."
+    },
+    {
+      "name": "RTS (Recruitment Tracking System)",
+      "description": "A system for managing recruitment with optimized APIs for handling large candidate data, improved database design, and enhanced performance solutions."
+    },
+    {
+      "name": "SKM (Skill Management)",
+      "description": "An employee skill management system focusing on API performance optimization, database design improvements, and business module development."
+    },
+    {
+      "name": "HRMS (Human Resource Management System)",
+      "description": "A comprehensive human resource management system for internal use at CMC GLOBAL, handling employee data, time tracking, and performance management."
+    }
+  ]
 }

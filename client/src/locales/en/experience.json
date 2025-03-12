@@ -1,13 +1,22 @@
 {
-  "title": "Work Experience",
-  "subtitle": "My Professional Journey",
-  "viewAll": "View All",
-  "present": "Present",
-  "skills": "Skills & Technologies",
-  "skillsDescription": "A comprehensive toolkit of technologies that I use to build exceptional digital experiences",
-  "frontend": "Frontend",
-  "backend": "Backend",
-  "ai": "AI & ML",
-  "database": "Database",
-  "devops": "DevOps"
+  "title": "Experience",
+  "technologiesSubtitle": "Technologies I've Worked With",
+  "workHistorySubtitle": "Work History",
+  "jobs": [
+    {
+      "title": "Senior Full Stack Developer",
+      "company": "FPT IS",
+      "description": "Led a team of 5 developers to design and implement a chatbot solution for ICC Vietnam. Improved service efficiency by 30% through automation and integrating NLP capabilities with IBM Watson. Developed the backend using Node.js and Express, and connected to Cisco Contact Center."
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "CMC GLOBAL",
+      "description": "Developed and maintained multiple web applications for financial services clients using Java Spring Boot, Angular, and React. Implemented secure authentication systems and optimized database queries resulting in a 40% improvement in page load times."
+    },
+    {
+      "title": "Software Engineer",
+      "company": "VTI ACADEMY",
+      "description": "Designed and developed web applications for education sector clients using JavaScript, Node.js, and MongoDB. Created responsive and user-friendly interfaces with React and integrated RESTful APIs for seamless data communication."
+    }
+  ]
 }

@@ -1,13 +1,22 @@
 {
-  "title": "Kinh Nghiệm Làm Việc",
-  "subtitle": "Hành Trình Chuyên Môn",
-  "viewAll": "Xem tất cả",
-  "present": "Hiện tại",
-  "skills": "Kỹ Năng & Công Nghệ",
-  "skillsDescription": "Bộ công cụ toàn diện về các công nghệ mà tôi sử dụng để xây dựng những trải nghiệm kỹ thuật số nổi bật",
-  "frontend": "Frontend",
-  "backend": "Backend",
-  "ai": "AI & ML",
-  "database": "Cơ sở dữ liệu",
-  "devops": "DevOps"
+  "title": "Kinh Nghiệm",
+  "technologiesSubtitle": "Công Nghệ Tôi Đã Làm Việc",
+  "workHistorySubtitle": "Lịch Sử Công Việc",
+  "jobs": [
+    {
+      "title": "Lập Trình Viên Full Stack Senior",
+      "company": "FPT IS",
+      "description": "Dẫn dắt nhóm 5 lập trình viên để thiết kế và triển khai giải pháp chatbot cho ICC Việt Nam. Cải thiện hiệu quả dịch vụ lên 30% thông qua tự động hóa và tích hợp các khả năng xử lý ngôn ngữ tự nhiên với IBM Watson. Phát triển backend sử dụng Node.js và Express, kết nối với Trung tâm Liên lạc Cisco."
+    },
+    {
+      "title": "Lập Trình Viên Full Stack",
+      "company": "CMC GLOBAL",
+      "description": "Phát triển và bảo trì nhiều ứng dụng web cho khách hàng dịch vụ tài chính sử dụng Java Spring Boot, Angular và React. Triển khai hệ thống xác thực an toàn và tối ưu hóa truy vấn cơ sở dữ liệu, dẫn đến cải thiện 40% thời gian tải trang."
+    },
+    {
+      "title": "Kỹ Sư Phần Mềm",
+      "company": "VTI ACADEMY",
+      "description": "Thiết kế và phát triển ứng dụng web cho khách hàng trong lĩnh vực giáo dục sử dụng JavaScript, Node.js và MongoDB. Tạo giao diện đáp ứng và thân thiện với người dùng bằng React và tích hợp API RESTful để giao tiếp dữ liệu liền mạch."
+    }
+  ]
 }

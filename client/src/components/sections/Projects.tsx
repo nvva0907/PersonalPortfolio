@@ -1,20 +1,23 @@
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import { projects } from '@/data/projects';
+import { useTranslation } from 'react-i18next';
 
 const Projects = () => {
+  const { t } = useTranslation('projects');
+  
   return (
     <section id="projects" className="py-24 section">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-          <span className="text-primary">&lt;</span> Projects <span className="text-primary">/&gt;</span>
+          <span className="text-primary">&lt;</span> {t('title')} <span className="text-primary">/&gt;</span>
         </h2>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <motion.div 
               key={index}
-              className="project-card bg-[#1E293B] rounded-xl overflow-hidden border border-slate-700 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10"
+              className="project-card bg-slate-800 rounded-xl overflow-hidden border border-slate-700 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10"
               whileHover={{ y: -8 }}
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -42,17 +45,17 @@ const Projects = () => {
                 </svg>
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">{project.name}</h3>
-                <p className="text-slate-300 mb-4">{project.description}</p>
+                <h3 className="text-xl font-bold mb-2">{t(`projects.${index}.name`) || project.name}</h3>
+                <p className="text-slate-300 mb-4">{t(`projects.${index}.description`) || project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.map((tech, techIndex) => (
-                    <span key={techIndex} className="px-3 py-1 bg-slate-800 rounded-full text-xs font-medium text-slate-300">
+                    <span key={techIndex} className="px-3 py-1 bg-slate-700 rounded-full text-xs font-medium text-slate-300">
                       {tech}
                     </span>
                   ))}
                 </div>
                 <a href="#" className="text-primary hover:text-blue-400 inline-flex items-center">
-                  View Details <ArrowRight className="ml-2 h-4 w-4" />
+                  {t('viewDetails')} <ArrowRight className="ml-2 h-4 w-4" />
                 </a>
               </div>
             </motion.div>
