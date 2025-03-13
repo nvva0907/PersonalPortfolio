@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
+import { ThemeProvider } from "./lib/theme-provider";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import Hero from "./components/sections/Hero";
@@ -36,18 +37,20 @@ function App() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <div className="font-sans min-h-screen bg-background text-foreground">
-        <Navbar />
-        <main>
-          <Hero />
-          <About />
-          <Experience />
-          <Projects />
-          <Contact />
-        </main>
-        <Footer />
-      </div>
-      <Toaster />
+      <ThemeProvider defaultTheme="dark">
+        <div className="flex flex-col min-h-screen">
+          <Navbar />
+          <main className="flex-grow">
+            <Hero />
+            <About />
+            <Experience />
+            <Projects />
+            <Contact />
+          </main>
+          <Footer />
+        </div>
+        <Toaster />
+      </ThemeProvider>
     </QueryClientProvider>
   );
 }
